@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.homepage-header {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.homepage-header-left-section {
+  width: 180px;
+}
+.homepage-header-middle-section {
+  color: aliceblue;
+}
+.homepage-header-right-section {
+  color: white;
+  width: 180px;
+}
