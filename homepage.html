@@ -6,41 +6,43 @@
     <link rel="stylesheet" href="styles/amazon-products.css">
   </head>
   <body>
+
     <div class="homepage-header">
+
       <div class="homepage-header-left-section">
-        <img src="images/amazon-logo-white.png">
+        <a>
+          <img src="images/amazon-logo-white.png" class="amazon-logo">
+        </a>
       </div>
-      <div class="homepage-header-middle-section">
-        <input type="search" placeholder="amazon search">
+
+      <div class="amazon-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
       </div>
-      <div class="homepage-header-right-section">
-        returns & orders
+
+      <div class="amazon-header-right-section">
+        <a>
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+
+        <a class="cart-link header-link">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity">3</div>
+          <div class="cart-text">Cart</div>
+        </a>
       </div>
     </div>
 
-    <div class="product-grid">
-      <div class="product-container">
-        <div class="product-image-container">
-          <img src="images/products/athletic-cotton-socks-6-pairs.jpg" class="product-image">
-        </div>
-     
-        <div class="product-name">
-          Black and Gray Athletic Cotton Socks - 6 Pairs
-        </div>
-  
-        <div class="product-rating">
-          <img src="images/ratings/rating-45.png" class="product-rating-stars">
-          <div class="product-rating-counts">
-            6549
-          </div>
-        </div>
-      
-        <div class="product-price">$ 500</div>
-  
-        <button class="add-to-cart-button">
-          Add to Cart
-        </button>
+    <div clas="main">
+      <div class="product-grid js-product-grid">
+          
       </div>
     </div>
+    <script src="data/products.js"></script>
+    <script src="scripts/amazon.js"></script>
   </body>
 </html>
