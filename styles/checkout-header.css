@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.checkout-header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.checkout-amazon-logo {
+  width: 150px;
+}
+.order-summary {
+  border: 1px solid black;
+  max-width: 600px;
+}
+.delivery-product-details-container {
+  border: 1px solid black;
+}
+.product-image {
+  width: 120px;
+}
+.delivery-product-details-container {
+  display: flex;
+}
